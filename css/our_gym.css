@@ -1,0 +1,42 @@
+.gym-description {
+    max-width: 900px;
+    margin: 70px auto 40px;
+    padding: 40px 35px;
+    background-color: rgba(230, 242, 255, 0.8); 
+    border: 3px solid #004aad;
+    border-radius: 18px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #004aad;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.carousel {
+    max-width: 850px;
+    margin: 0 auto 80px;
+}
+
+/* Carousel images wrapper */
+.carousel-images {
+    position: relative; /* reference for absolute images */
+    width: 100%;
+    height: 450px; /* fixed height for carousel */
+}
+
+/* Single carousel image */
+.carousel-img {
+    position: absolute;               /* stacked images */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;                /* fill container while keeping ratio */
+    border-radius: 18px;              /* rounded corners */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    opacity: 0;                       /* hidden by default */
+    transition: opacity 1s ease-in-out; /* smooth fade effect */
+}
+
+.carousel-img.active {
+    opacity: 1;
+}

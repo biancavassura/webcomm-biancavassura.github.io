@@ -1,0 +1,189 @@
+.myheroimage {
+    position: relative;
+    height: 300px;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(bimbe_saggio1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myherotitle {
+    background-color: rgba(0,107,142,0.7);
+    color: white;
+    padding: 15px 30px;
+    font-family: "Georgia", serif;
+    font-size: 32px;
+    font-style: italic;
+    border-radius: 8px;
+}
+.home-content {
+    padding: 40px;
+    font-family: 'Georgia', serif; 
+    text-align: center;           
+    color: #004aad;              
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #004aad;
+}
+
+.home-content p {
+  font-size: 18px;
+  line-height: 1.25;  
+}
+
+.home-content h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #004aad;
+}
+
+.home-content p {
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+
+/* Two-column layout */
+.row-layout {
+    display: flex;
+    flex-wrap: wrap;           /* responsive on small screens */
+    align-items: flex-start;
+    gap: 40px;                /* space between text and image */
+    padding: 40px;
+}
+
+.text-column {
+    flex: 1;                   /* takes half of the available space */
+    text-align: left, justify;           
+    color: #004aad;            
+    font-family: 'Georgia', serif;
+    line-height: 1.5;
+}
+
+.image-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+.image-column img {
+    width: 100%;
+    max-width: 450px;           
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1); /* soft shadow */
+
+}
+
+.blue-background {
+    background-color: #e0f0ff;
+    padding: 40px 30px;
+}
+
+.visit-contact {
+    margin-top: 40px;
+}
+
+.visit-row {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start; /* aligns map with heading */
+}
+
+.map-column {
+    flex: 1;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 10px;
+    cursor: pointer; /* indicates clickability */
+    transition: transform 0.3s ease;
+}
+
+.map-image:hover {
+    transform: scale(1.04);
+}
+
+.visit-text {
+    flex: 1;
+}
+
+.visit-text h3 {
+    color: #0056b3;      
+    font-size: 22px;     
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.visit-text p {
+    margin: 6px 0;
+    line-height: 1.4;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.contact-box {
+    margin: 30px auto 0;
+    max-width: 600px;
+    background-color: rgba(255, 165, 0, 0.25);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.contact-box h3 {
+    color: #b35c00;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.contact-box p {
+    margin: 6px 0;
+    font-size: 20px;
+}
+
+.contact-box a {
+    color: #0056b3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+.video-link-section {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.video-text {
+    font-size: 20px;
+    color: #ff7a00;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+}
+
+.video-thumbnail {
+    width: 100%;
+    max-width: 560px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
